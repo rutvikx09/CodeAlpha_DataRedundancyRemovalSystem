@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Data Redundancy Removal System</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            margin: 50px;
+        }
+
+        form{
+            width:300px;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            margin-bottom:10px;
+        }
+
+        button{
+            padding:10px 20px;
+        }
+
+        h3{
+            color:green;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Data Redundancy Removal System</h1>
+
+    <form method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter Name"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            required>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <h3>{{ message }}</h3>
+
+</body>
+
+</html>
